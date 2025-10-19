@@ -103,7 +103,7 @@ const Contact = () => {
                     value={formData.name}
                     onChange={handleChange}
                     required
-                    className="w-full px-4 py-3 border-2 border-[#D7EEF9] rounded-xl focus:border-[#8FCFF0] focus:outline-none transition-colors duration-200"
+                    className="w-full text-[#0B2235] px-4 py-3 border-2 border-[#D7EEF9] rounded-xl focus:border-[#8FCFF0] focus:outline-none transition-colors duration-200"
                     placeholder="Your full name"
                   />
                 </div>
@@ -122,7 +122,7 @@ const Contact = () => {
                     value={formData.email}
                     onChange={handleChange}
                     required
-                    className="w-full px-4 py-3 border-2 border-[#D7EEF9] rounded-xl focus:border-[#8FCFF0] focus:outline-none transition-colors duration-200"
+                    className="w-full text-[#0B2235] px-4 py-3 border-2 border-[#D7EEF9] rounded-xl focus:border-[#8FCFF0] focus:outline-none transition-colors duration-200"
                     placeholder="your@email.com"
                   />
                 </div>
