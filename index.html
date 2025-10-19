@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Anthony Peters - UI/UX & Product Designer Portfolio</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      :root {
+        --bg-color: #f6fbff;
+        --primary-blue: #bee6ff;
+        --accent-blue: #8fcff0;
+        --muted-card-bg: #eaf8ff;
+        --text-dark: #0b2235;
+        --subtle-divider: #d7eef9;
+        --max-content-width: 1200px;
+        --header-height: 80px;
+        --spacing-xl: 80px;
+        --spacing-l: 60px;
+        --spacing-m: 40px;
+        --spacing-s: 20px;
+        --spacing-xs: 10px;
+      }
+
+      body {
+        font-family: "Libre Baskerville", serif;
+        color: var(--text-dark);
+        background-color: var(--bg-color);
+        margin: 0;
+        line-height: 1.6;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+      }
+
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        font-weight: 700;
+        margin-top: 0;
+        margin-bottom: var(--spacing-s);
+      }
+
+      a {
+        color: var(--text-dark);
+        text-decoration: none;
+        transition: color 0.3s ease;
+      }
+
+      a:hover {
+        color: var(--accent-blue);
+      }
+
+      .container {
+        max-width: var(--max-content-width);
+        margin: 0 auto;
+        padding: 0 var(--spacing-m);
+      }
+
+      /* Header / Top Nav */
+      .header {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background-color: var(--bg-color);
+        border-bottom: 1px solid var(--subtle-divider);
+        padding: var(--spacing-s) 0;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.03);
+        transition: all 0.3s ease;
+      }
+
+      .header .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: var(--header-height);
+      }
+
+      .logo {
+        font-size: 1.8em;
+        font-weight: 700;
+        color: var(--text-dark);
+      }
+      .logo span {
+        color: var(--accent-blue);
+      }
+
+      .main-nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        gap: var(--spacing-m);
+      }
+
+      .main-nav a {
+        font-size: 1.05em;
+        position: relative;
+        padding-bottom: 5px; /* Space for underline */
+      }
+
+      .main-nav a::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 0;
+        height: 2px;
+        background-color: var(--accent-blue);
+        transition: width 0.3s ease;
+      }
+
+      .main-nav a:hover::after {
+        width: 100%;
+      }
+
+      .cta-buttons {
+        display: flex;
+        gap: var(--spacing-s);
+      }
+
+      .button {
+        padding: var(--spacing-xs) var(--spacing-s);
+        border-radius: 8px;
+        font-weight: 700;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        text-align: center;
+        font-family: "Libre Baskerville", serif; /* Ensure button text uses Libre Baskerville */
+      }
+
+      .button.primary {
+        background-color: var(--primary-blue);
+        color: var(--text-dark);
+        border: 2px solid var(--primary-blue);
+      }
+
+      .button.primary:hover {
+        background-color: var(--accent-blue);
+        border-color: var(--accent-blue);
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+      }
+
+      .button.secondary {
+        background-color: transparent;
+        color: var(--text-dark);
+        border: 2px solid var(--primary-blue);
+      }
+
+      .button.secondary:hover {
+        background-color: var(--primary-blue);
+        color: var(--text-dark);
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+      }
+
+      /* Hero Section */
+      .hero {
+        padding: var(--spacing-xl) 0;
+        min-height: calc(100vh - var(--header-height));
+        display: flex;
+        align-items: center;
+        background-color: var(--bg-color); /* Ensure full background coverage */
+      }
+
+      .hero-content {
+        display: flex;
+        align-items: center;
+        gap: var(--spacing-xl);
+      }
+
+      .hero-text {
+        flex: 1;
+        max-width: 50%;
+      }
+
+      .hero-text h1 {
+        font-size: 3.5em; /* Large, impactful headline */
+        line-height: 1.1;
+        margin-bottom: var(--spacing-s);
+      }
+
+      .hero-text .subhead {
+        font-size: 1.3em;
+        color: var(--text-dark);
+        margin-bottom: var(--spacing-m);
+        font-weight: 400; /* Regular weight for subhead */
+      }
+
+      .hero-cta-buttons {
+        display: flex;
+        gap: var(--spacing-s);
+        margin-top: var(--spacing-m);
+      }
+
+      .hero-image {
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 50%;
+        position: relative;
+        padding: var(--spacing-m);
+        background-color: var(
+          --muted-card-bg
+        ); /* Muted background for the image container */
+        border-radius: 15px;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+        min-height: 400px;
+      }
+
+      .hero-image::before {
+        content: "";
+        position: absolute;
+        top: -20px;
+        left: -20px;
+        width: 50px;
+        height: 50px;
+        background-color: rgba(
+          var(--primary-blue-rgb),
+          0.3
+        ); /* Subtle accent */
+        border-radius: 50%;
+        filter: blur(20px);
+        z-index: 0;
+      }
+      .hero-image::after {
+        content: "";
+        position: absolute;
+        bottom: -30px;
+        right: -30px;
+        width: 70px;
+        height: 70px;
+        background-color: rgba(var(--accent-blue-rgb), 0.2); /* Subtle accent */
+        border-radius: 50%;
+        filter: blur(25px);
+        z-index: 0;
+      }
+
+      .hero-image img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 10px;
+        box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+        z-index: 1;
+      }
+
+      /* About Section */
+      .about {
+        padding: var(--spacing-xl) 0;
+        background-color: var(
+          --muted-card-bg
+        ); /* Light background for the section */
+        border-top: 1px solid var(--subtle-divider);
+        border-bottom: 1px solid var(--subtle-divider);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .about .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 900px; /* Slightly narrower for about content */
+      }
+
+      .about h2 {
+        font-size: 2.5em;
+        margin-bottom: var(--spacing-m);
+        position: relative;
+        padding-bottom: var(--spacing-s);
+      }
+
+      .about h2::after {
+        content: "";
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 0;
+        width: 60px;
+        height: 3px;
+        background-color: var(--primary-blue);
+        border-radius: 2px;
+      }
+
+      .about-content {
+        display: flex;
+        align-items: center;
+        gap: var(--spacing-l);
+        margin-top: var(--spacing-m);
+        flex-wrap: wrap; /* Allow wrapping on smaller screens */
+        justify-content: center;
+      }
+
+      .about-text {
+        flex: 2;
+        text-align: left;
+        max-width: 600px; /* Limit text width for readability */
+      }
+
+      .about-text p {
+        font-size: 1.1em;
+        margin-bottom: var(--spacing-s);
+        color: var(--text-dark);
+      }
+
+      .about-badges {
+        flex: 1;
+        min-width: 250px;
+        text-align: left;
+        background-color: var(--bg-color);
+        padding: var(--spacing-m);
+        border-radius: 10px;
+        box-shadow: 0 5px 20px rgba(0, 0, 0, 0.03);
+      }
+
+      .badge-item {
+        display: flex;
+        align-items: center;
+        margin-bottom: var(--spacing-xs);
+        font-size: 1em;
+      }
+
+      .badge-item strong {
+        color: var(--primary-blue);
+        margin-right: 8px;
+        min-width: 100px; /* Align content */
+        display: inline-block;
+      }
+
+      .headshot {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-bottom: var(--spacing-m);
+        border: 4px solid var(--primary-blue);
+        box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+      }
+
+      /* Responsive adjustments */
+      @media (max-width: 992px) {
+        .hero-content {
+          flex-direction: column;
+          text-align: center;
+        }
+
+        .hero-text,
+        .hero-image {
+          max-width: 100%;
+        }
+
+        .hero-text h1 {
+          font-size: 2.8em;
+        }
+
+        .main-nav,
+        .cta-buttons {
+          display: none; /* Hide for smaller screens, will implement hamburger menu later */
+        }
+
+        .header .container {
+          justify-content: center; /* Center logo if nav is hidden */
+        }
+
+        .hero-image {
+          min-height: 300px;
+          padding: var(--spacing-s);
+        }
+
+        .about-content {
+          flex-direction: column;
+          gap: var(--spacing-m);
+        }
+        .about-text,
+        .about-badges {
+          max-width: 100%;
+          text-align: center;
+        }
+      }
+
+      @media (max-width: 768px) {
+        .hero-text h1 {
+          font-size: 2.2em;
+        }
+        .hero-text .subhead {
+          font-size: 1.1em;
+        }
+        .button {
+          padding: 8px 15px;
+        }
+        .container {
+          padding: 0 var(--spacing-s);
+        }
+        .hero,
+        .about {
+          padding: var(--spacing-l) 0;
+        }
+        .about h2 {
+          font-size: 2em;
+        }
+      }
+
+      @media (max-width: 480px) {
+        .hero-text h1 {
+          font-size: 1.8em;
+        }
+        .hero-text .subhead {
+          font-size: 1em;
+        }
+        .hero-cta-buttons {
+          flex-direction: column;
+          align-items: center;
+        }
+        .button {
+          width: 100%;
+          max-width: 200px; /* Constrain button width on tiny screens */
+        }
+        .logo {
+          font-size: 1.5em;
+        }
+      }
+
+      /* Utility for colors needed by JS/CSS calculations */
+      body {
+        --primary-blue-rgb: 190, 230, 255;
+        --accent-blue-rgb: 143, 207, 240;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="header" id="home">
+      <div class="container">
+        <a href="#" class="logo" aria-label="Anthony Peters Home"
+          >AP<span>.</span></a
+        >
+        <nav class="main-nav" aria-label="Main navigation">
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#case-studies">Case Studies</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="cta-buttons">
+          <a href="#contact" class="button primary">Hire me</a>
+          <a href="/path/to/your-resume.pdf" class="button secondary" download
+            >View resume</a
+          >
+        </div>
+      </div>
+    </header>
+
+    <section class="hero">
+      <div class="container hero-content">
+        <div class="hero-text">
+          <h1>UI/UX & Product Designer</h1>
+          <p class="subhead">Clean, human-centered interfaces</p>
+          <p>
+            I design usable web & app experiences for early-stage startups and
+            product teams. Available for freelance and full-time roles.
+          </p>
+          <div class="hero-cta-buttons">
+            <a href="#contact" class="button primary">Hire me &rarr;</a>
+            <a href="/path/to/your-resume.pdf" class="button secondary" download
+              >View resume</a
+            >
+          </div>
+        </div>
+        <div class="hero-image" aria-label="Portfolio showcase mockup">
+          <img
+            src="https://placehold.co/500x350/EAF8FF/0B2235?text=UI/UX+Portfolio+Showcase"
+            alt="Minimalist UI/UX portfolio showcase mockup"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="container">
+        <h2>About Me</h2>
+        <div class="about-content">
+          <img
+            src="https://placehold.co/150x150/F6FBFF/BEE6FF?text=Headshot"
+            alt="Professional headshot of Anthony Peters"
+            class="headshot"
+          />
+          <div class="about-text">
+            <p>
+              I'm a passionate UI/UX designer with 3+ years of experience
+              crafting digital experiences that bridge the gap between user
+              needs and business goals. My expertise lies in intuitive web and
+              app design, from initial concept to polished prototype.
+            </p>
+            <p>
+              Based in [Your City/Region, optional], I'm currently seeking
+              challenging opportunities that allow me to contribute to impactful
+              products and grow my skills in a collaborative environment.
+            </p>
+          </div>
+          <div class="about-badges">
+            <div class="badge-item"><strong>Experience:</strong> 3+ Years</div>
+            <div class="badge-item">
+              <strong>Tools:</strong> Figma, FigJam, Adobe XD, HTML/CSS
+            </div>
+            <div class="badge-item">
+              <strong>Status:</strong> Available for Freelance & Full-Time
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section
+      id="skills"
+      style="
+        min-height: 500px;
+        padding: var(--spacing-xl) 0;
+        background-color: var(--bg-color);
+        text-align: center;
+        border-top: 1px solid var(--subtle-divider);
+      "
+    >
+      <div class="container">
+        <h2>Skills</h2>
+        <p>Content for skills section will go here...</p>
+      </div>
+    </section>
+
+    <section
+      id="projects"
+      style="
+        min-height: 700px;
+        padding: var(--spacing-xl) 0;
+        background-color: var(--muted-card-bg);
+        text-align: center;
+        border-top: 1px solid var(--subtle-divider);
+      "
+    >
+      <div class="container">
+        <h2>Projects</h2>
+        <p>Content for projects overview gallery will go here...</p>
+      </div>
+    </section>
+
+    <section
+      id="case-studies"
+      style="
+        min-height: 1000px;
+        padding: var(--spacing-xl) 0;
+        background-color: var(--bg-color);
+        text-align: center;
+        border-top: 1px solid var(--subtle-divider);
+      "
+    >
+      <div class="container">
+        <h2>Featured Case Studies</h2>
+        <p>Content for featured case studies will go here...</p>
+      </div>
+    </section>
+
+    <section
+      id="resume"
+      style="
+        min-height: 500px;
+        padding: var(--spacing-xl) 0;
+        background-color: var(--muted-card-bg);
+        text-align: center;
+        border-top: 1px solid var(--subtle-divider);
+      "
+    >
+      <div class="container">
+        <h2>Work History / Resume</h2>
+        <p>
+          Content for work history timeline and resume download will go here...
+        </p>
+      </div>
+    </section>
+
+    <section
+      id="contact"
+      style="
+        min-height: 600px;
+        padding: var(--spacing-xl) 0;
+        background-color: var(--bg-color);
+        text-align: center;
+        border-top: 1px solid var(--subtle-divider);
+      "
+    >
+      <div class="container">
+        <h2>Contact Me</h2>
+        <p>Content for contact form and links will go here...</p>
+      </div>
+    </section>
+
+    <footer
+      style="
+        padding: var(--spacing-m) 0;
+        background-color: var(--text-dark);
+        color: var(--bg-color);
+        text-align: center;
+        font-size: 0.9em;
+      "
+    >
+      <div class="container">
+        <p>&copy; 2023 Anthony Peters. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script>
+      document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+        anchor.addEventListener("click", function (e) {
+          e.preventDefault();
+
+          document.querySelector(this.getAttribute("href")).scrollIntoView({
+            behavior: "smooth",
+          });
+        });
+      });
+    </script>
+  </body>
+</html>
