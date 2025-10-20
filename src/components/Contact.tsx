@@ -82,7 +82,7 @@ const Contact = () => {
 
         <div className="grid lg:grid-cols-2 gap-12">
           {/* Contact Form */}
-          <div className="bg-white rounded-2xl p-8 text-center mt-16 shadow-xl">
+          <div className="bg-white rounded-2xl p-8 shadow-xl">
             <h3 className="text-2xl font-bold text-[#0B2235] mb-6">
               Send Me a Message
             </h3>
