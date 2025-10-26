@@ -6,6 +6,7 @@ import {
   Calendar,
   Github,
   Linkedin,
+  Dribbble,
   Send,
   Clock,
   ExternalLink,
@@ -244,6 +245,18 @@ const Contact = () => {
                   <Github className="w-6 h-6 text-[#8FCFF0]" />
                   <span className="font-medium text-[#0B2235] group-hover:text-[#8FCFF0] transition-colors duration-200">
                     GitHub
+                  </span>
+                </a>
+
+                 <a
+                  href="https://dribbble.com/akankshapilli08"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-3 p-4 rounded-xl hover:bg-[#EAF8FF] transition-colors duration-200 group"
+                >
+                  <Github className="w-6 h-6 text-[#8FCFF0]" />
+                  <span className="font-medium text-[#0B2235] group-hover:text-[#8FCFF0] transition-colors duration-200">
+                    Dribbble
                   </span>
                 </a>
               </div>
