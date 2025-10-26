@@ -1227,7 +1227,7 @@ const CaseStudies = () => {
     },
     {
       id: 6,
-      title: "ZenDit App Landing Page",
+      title: "ZenFit App Landing Page",
       type: "web",
       subtitle: "Elevate Your Fitness with ZenFit & AI Zen",
       prototype:
