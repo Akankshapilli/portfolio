@@ -302,7 +302,7 @@ const CaseStudies = () => {
             note: "Demonstrates strong user engagement with the core feature.",
           },
           {
-            metric: "App Store Rating",
+            metric: "Usability Test Rating",
             value: "4.8 Stars",
             note: "Based on over 1,200 user reviews.",
           },
@@ -566,7 +566,7 @@ const CaseStudies = () => {
         role: "UI/UX Designer",
         timeline: "3 months",
         tools: "Figma",
-        outcome: "Increased user savings goal creation by 60% post-launch",
+        outcome: "60% Increase in Task Success Rate post-launch",
       },
       problem: {
         problemStatement:
@@ -754,7 +754,7 @@ const CaseStudies = () => {
             note: "Percentage of active users who created at least one savings goal in their first month.",
           },
           {
-            metric: "App Store Rating",
+            metric: "Usability Test Rating",
             value: "4.5 Stars",
             note: "Average user rating on the App Store after 3 months.",
           },
@@ -992,7 +992,7 @@ const CaseStudies = () => {
             note: "Average number of items added per active user, indicating high engagement with the core loop.",
           },
           {
-            metric: "App Store Rating",
+            metric: "Usability Test Rating",
             value: "4.7 Stars",
             note: "Based on over 800 user reviews, frequently praising the 'Lent Out' feature as a 'life-saver'.",
           },
@@ -1201,7 +1201,7 @@ const CaseStudies = () => {
             note: "Users who sealed a capsule were highly likely to return to create another.",
           },
           {
-            metric: "App Store Rating",
+            metric: "Usability Test Rating",
             value: "4.9 Stars",
             note: "Based on 1,500+ reviews, praising the 'emotional' and 'meaningful' experience.",
           },
@@ -1239,7 +1239,7 @@ const CaseStudies = () => {
         timeline: "6 weeks",
         tools: "Figma, Adobe Illustrator",
         outcome:
-          "Achieved a 25% conversion rate (visitor to app download) post-launch.",
+          "Projected 25% Conversion Rate (visitor to app download) post-launch.",
       },
       problem: {
         problemStatement:
