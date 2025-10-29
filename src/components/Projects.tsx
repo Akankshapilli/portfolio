@@ -245,7 +245,7 @@ const Projects = () => {
                       aria-label={`View ${project.title} live demo`}
                     >
                       <ExternalLink className="w-4 h-4 mr-1" />
-                      Live Demo
+                      Prototype
                     </button>
                   )}
                 </div>
