@@ -2002,7 +2002,7 @@ const CaseStudies = () => {
                       aria-label={`View ${study.title} demo video`}
                     >
                       <Play className="w-5 h-5 mr-2" />
-                      View Demo
+                      View Video Demo
                     </button>
                   )}
                 </div>
