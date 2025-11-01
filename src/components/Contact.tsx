@@ -7,6 +7,7 @@ import {
   Github,
   Linkedin,
   Dribbble,
+  Behance,
   Send,
   Clock,
   ExternalLink,
@@ -257,6 +258,18 @@ const Contact = () => {
                   <Dribbble className="w-6 h-6 text-[#8FCFF0]" />
                   <span className="font-medium text-[#0B2235] group-hover:text-[#8FCFF0] transition-colors duration-200">
                     Dribbble
+                  </span>
+                </a>
+
+                <a
+                  href="https://www.behance.net/akankshapilli"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-3 p-4 rounded-xl hover:bg-[#EAF8FF] transition-colors duration-200 group"
+                >
+                  <Behance className="w-6 h-6 text-[#8FCFF0]" />
+                  <span className="font-medium text-[#0B2235] group-hover:text-[#8FCFF0] transition-colors duration-200">
+                    Behance
                   </span>
                 </a>
               </div>
