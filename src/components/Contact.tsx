@@ -12,6 +12,7 @@ import {
   Clock,
   ExternalLink,
 } from "lucide-react";
+import { SiBehance, } from "react-icons/si";
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -267,7 +268,7 @@ const Contact = () => {
                   rel="noopener noreferrer"
                   className="flex items-center gap-3 p-4 rounded-xl hover:bg-[#EAF8FF] transition-colors duration-200 group"
                 >
-                  <Slice className="w-6 h-6 text-[#8FCFF0]" />
+                  <SiBehance className="w-6 h-6 text-[#8FCFF0]" />
                   <span className="font-medium text-[#0B2235] group-hover:text-[#8FCFF0] transition-colors duration-200">
                     Behance
                   </span>
