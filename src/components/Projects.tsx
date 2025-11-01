@@ -9,6 +9,8 @@ import bg3 from "@/public/media/bg/bg3.png";
 import bg4 from "@/public/media/bg/bg4.png";
 import bg5 from "@/public/media/bg/bg5.png";
 import bg6 from "@/public/media/bg/bg6.png";
+import bg7 from "@/public/media/bg/bg7.png";
+import bg8 from "@/public/media/bg/bg8.png";
 
 const Projects = () => {
   const [filter, setFilter] = useState("all");
@@ -103,6 +105,36 @@ const Projects = () => {
       demo: "/media/videos/livesix.mp4",
       prototype:
         "https://www.figma.com/proto/NiBfh8ALWIUyJ165iCNp78/Portfolio-Projects?node-id=225-537&p=f&t=w9SuAhVazrGtYpgx-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=225%3A537",
+      hasPrototype: true,
+      hasCaseStudy: true,
+      hasDemo: true,
+    },
+    {
+      id: 7,
+      title: "Lush Interiors",
+      description: "The All-in-One Construction Management Platform.",
+      category: "app",
+      image: bg7,
+      type: "app",
+      tags: ["UI/UX", "App", "Figma"],
+      demo: "/media/videos/liveseven.mp4",
+      prototype:
+        "https://www.figma.com/proto/19ra3zydq1SYAlOUKETep0/Lush-Interiors?node-id=974-143&t=I4HPzkHRJDfFyri4-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=974%3A143",
+      hasPrototype: true,
+      hasCaseStudy: true,
+      hasDemo: true,
+    },
+    {
+      id: 8,
+      title: "CityWatch",
+      description: "Municipal Surveillance & Enforcement App",
+      category: "app",
+      image: bg8,
+      type: "app",
+      tags: ["UI/UX", "App", "Figma"],
+      demo: "/media/videos/liveeight.mp4",
+      prototype:
+        "https://www.figma.com/proto/7aA09UWlBi1HtU6jYTMQXW/Waste-Management?node-id=0-6&p=f&t=keFbPlJZaYy1ZrCe-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=0%3A6",
       hasPrototype: true,
       hasCaseStudy: true,
       hasDemo: true,
