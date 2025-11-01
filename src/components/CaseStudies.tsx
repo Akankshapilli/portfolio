@@ -9,6 +9,8 @@ import bg3 from "@/public/media/bg/bg3.png";
 import bg4 from "@/public/media/bg/bg4.png";
 import bg5 from "@/public/media/bg/bg5.png";
 import bg6 from "@/public/media/bg/bg6.png";
+import bg7 from "@/public/media/bg/bg7.png";
+import bg8 from "@/public/media/bg/bg8.png";
 
 import wu1 from "@/public/media/users/wu1.png";
 import wu2 from "@/public/media/users/wu2.png";
@@ -22,6 +24,10 @@ import eu1 from "@/public/media/users/eu1.png";
 import eu2 from "@/public/media/users/eu2.png";
 import zu1 from "@/public/media/users/zu1.png";
 import zu2 from "@/public/media/users/zu2.png";
+import lu1 from "@/public/media/users/lu1.png";
+import lu2 from "@/public/media/users/lu2.png";
+import wmu1 from "@/public/media/users/wmu1.png";
+import wmu2 from "@/public/media/users/wmu2.png";
 
 import w1 from "@/public/media/wanderlogue/w1.png";
 import w2 from "@/public/media/wanderlogue/w2.png";
@@ -110,6 +116,136 @@ import z6 from "@/public/media/zenfit/z6.png";
 import z7 from "@/public/media/zenfit/z7.png";
 import z8 from "@/public/media/zenfit/z8.png";
 import z9 from "@/public/media/zenfit/z9.png";
+
+import l1 from "@/public/media/lushinteriors/l1.png";
+import l2 from "@/public/media/lushinteriors/l2.png";
+import l3 from "@/public/media/lushinteriors/l3.png";
+import l4 from "@/public/media/lushinteriors/l4.png";
+import l5 from "@/public/media/lushinteriors/l5.png";
+import l6 from "@/public/media/lushinteriors/l6.png";
+import l7 from "@/public/media/lushinteriors/l7.png";
+import l8 from "@/public/media/lushinteriors/l8.png";
+import l9 from "@/public/media/lushinteriors/l9.png";
+import l10 from "@/public/media/lushinteriors/l10.png";
+import l11 from "@/public/media/lushinteriors/l11.png";
+import l12 from "@/public/media/lushinteriors/l12.png";
+import l13 from "@/public/media/lushinteriors/l13.png";
+import l14 from "@/public/media/lushinteriors/l14.png";
+import l15 from "@/public/media/lushinteriors/l15.png";
+import l16 from "@/public/media/lushinteriors/l16.png";
+import l17 from "@/public/media/lushinteriors/l17.png";
+import l18 from "@/public/media/lushinteriors/l18.png";
+import l19 from "@/public/media/lushinteriors/l19.png";
+import l20 from "@/public/media/lushinteriors/l20.png";
+import l21 from "@/public/media/lushinteriors/l21.png";
+import l22 from "@/public/media/lushinteriors/l22.png";
+import l23 from "@/public/media/lushinteriors/l23.png";
+import l24 from "@/public/media/lushinteriors/l24.png";
+import l25 from "@/public/media/lushinteriors/l25.png";
+import l26 from "@/public/media/lushinteriors/l26.png";
+import l27 from "@/public/media/lushinteriors/l27.png";
+import l28 from "@/public/media/lushinteriors/l28.png";
+import l29 from "@/public/media/lushinteriors/l29.png";
+import l30 from "@/public/media/lushinteriors/l30.png";
+import l31 from "@/public/media/lushinteriors/l31.png";
+import l32 from "@/public/media/lushinteriors/l32.png";
+import l33 from "@/public/media/lushinteriors/l33.png";
+import l34 from "@/public/media/lushinteriors/l34.png";
+import l35 from "@/public/media/lushinteriors/l35.png";
+import l36 from "@/public/media/lushinteriors/l36.png";
+import l37 from "@/public/media/lushinteriors/l37.png";
+import l38 from "@/public/media/lushinteriors/l38.png";
+import l39 from "@/public/media/lushinteriors/l39.png";
+import l40 from "@/public/media/lushinteriors/l40.png";
+import l41 from "@/public/media/lushinteriors/l41.png";
+import l42 from "@/public/media/lushinteriors/l42.png";
+import l43 from "@/public/media/lushinteriors/l43.png";
+import l44 from "@/public/media/lushinteriors/l44.png";
+import l45 from "@/public/media/lushinteriors/l45.png";
+import l46 from "@/public/media/lushinteriors/l46.png";
+import l47 from "@/public/media/lushinteriors/l47.png";
+import l48 from "@/public/media/lushinteriors/l48.png";
+import l49 from "@/public/media/lushinteriors/l49.png";
+import l50 from "@/public/media/lushinteriors/l50.png";
+import l51 from "@/public/media/lushinteriors/l51.png";
+import l52 from "@/public/media/lushinteriors/l52.png";
+import l53 from "@/public/media/lushinteriors/l53.png";
+import l54 from "@/public/media/lushinteriors/l54.png";
+import l55 from "@/public/media/lushinteriors/l55.png";
+import l56 from "@/public/media/lushinteriors/l56.png";
+import l57 from "@/public/media/lushinteriors/l57.png";
+import l58 from "@/public/media/lushinteriors/l58.png";
+import l59 from "@/public/media/lushinteriors/l59.png";
+import l60 from "@/public/media/lushinteriors/l60.png";
+import l61 from "@/public/media/lushinteriors/l61.png";
+import l62 from "@/public/media/lushinteriors/l62.png";
+import l63 from "@/public/media/lushinteriors/l63.png";
+import l64 from "@/public/media/lushinteriors/l64.png";
+import l65 from "@/public/media/lushinteriors/l65.png";
+import l66 from "@/public/media/lushinteriors/l66.png";
+import l67 from "@/public/media/lushinteriors/l67.png";
+import l68 from "@/public/media/lushinteriors/l68.png";
+import l69 from "@/public/media/lushinteriors/l69.png";
+import l70 from "@/public/media/lushinteriors/l70.png";
+import l71 from "@/public/media/lushinteriors/l71.png";
+import l72 from "@/public/media/lushinteriors/l72.png";
+import l73 from "@/public/media/lushinteriors/l73.png";
+import l74 from "@/public/media/lushinteriors/l74.png";
+import l75 from "@/public/media/lushinteriors/l75.png";
+import l76 from "@/public/media/lushinteriors/l76.png";
+import l77 from "@/public/media/lushinteriors/l77.png";
+import l78 from "@/public/media/lushinteriors/l78.png";
+import l79 from "@/public/media/lushinteriors/l79.png";
+import l80 from "@/public/media/lushinteriors/l80.png";
+import l81 from "@/public/media/lushinteriors/l81.png";
+import l82 from "@/public/media/lushinteriors/l82.png";
+import l83 from "@/public/media/lushinteriors/l83.png";
+import l84 from "@/public/media/lushinteriors/l84.png";
+import l85 from "@/public/media/lushinteriors/l85.png";
+import l86 from "@/public/media/lushinteriors/l86.png";
+import l87 from "@/public/media/lushinteriors/l87.png";
+import l88 from "@/public/media/lushinteriors/l88.png";
+import l89 from "@/public/media/lushinteriors/l89.png";
+import l90 from "@/public/media/lushinteriors/l90.png";
+import l91 from "@/public/media/lushinteriors/l91.png";
+import l92 from "@/public/media/lushinteriors/l92.png";
+import l93 from "@/public/media/lushinteriors/l93.png";
+import l94 from "@/public/media/lushinteriors/l94.png";
+import l95 from "@/public/media/lushinteriors/l95.png";
+import l96 from "@/public/media/lushinteriors/l96.png";
+import l97 from "@/public/media/lushinteriors/l97.png";
+import l98 from "@/public/media/lushinteriors/l98.png";
+
+import wm1 from "@/public/media/wastemanagement/wm1.png";
+import wm2 from "@/public/media/wastemanagement/wm2.png";
+import wm3 from "@/public/media/wastemanagement/wm3.png";
+import wm4 from "@/public/media/wastemanagement/wm4.png";
+import wm5 from "@/public/media/wastemanagement/wm5.png";
+import wm6 from "@/public/media/wastemanagement/wm6.png";
+import wm7 from "@/public/media/wastemanagement/wm7.png";
+import wm8 from "@/public/media/wastemanagement/wm8.png";
+import wm9 from "@/public/media/wastemanagement/wm9.png";
+import wm10 from "@/public/media/wastemanagement/wm10.png";
+import wm11 from "@/public/media/wastemanagement/wm11.png";
+import wm12 from "@/public/media/wastemanagement/wm12.png";
+import wm13 from "@/public/media/wastemanagement/wm13.png";
+import wm14 from "@/public/media/wastemanagement/wm14.png";
+import wm15 from "@/public/media/wastemanagement/wm15.png";
+import wm16 from "@/public/media/wastemanagement/wm16.png";
+import wm17 from "@/public/media/wastemanagement/wm17.png";
+import wm18 from "@/public/media/wastemanagement/wm18.png";
+import wm19 from "@/public/media/wastemanagement/wm19.png";
+import wm20 from "@/public/media/wastemanagement/wm20.png";
+import wm21 from "@/public/media/wastemanagement/wm21.png";
+import wm22 from "@/public/media/wastemanagement/wm22.png";
+import wm23 from "@/public/media/wastemanagement/wm23.png";
+import wm24 from "@/public/media/wastemanagement/wm24.png";
+import wm25 from "@/public/media/wastemanagement/wm25.png";
+import wm26 from "@/public/media/wastemanagement/wm26.png";
+import wm27 from "@/public/media/wastemanagement/wm27.png";
+import wm28 from "@/public/media/wastemanagement/wm28.png";
+import wm29 from "@/public/media/wastemanagement/wm29.png";
+import wm30 from "@/public/media/wastemanagement/wm30.png";
 
 const CaseStudies = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -302,7 +438,7 @@ const CaseStudies = () => {
             note: "Demonstrates strong user engagement with the core feature.",
           },
           {
-            metric: "Usability Test Rating",
+            metric: "App Store Rating",
             value: "4.8 Stars",
             note: "Based on over 1,200 user reviews.",
           },
@@ -566,7 +702,7 @@ const CaseStudies = () => {
         role: "UI/UX Designer",
         timeline: "3 months",
         tools: "Figma",
-        outcome: "60% Increase in Task Success Rate post-launch",
+        outcome: "Increased user savings goal creation by 60% post-launch",
       },
       problem: {
         problemStatement:
@@ -754,7 +890,7 @@ const CaseStudies = () => {
             note: "Percentage of active users who created at least one savings goal in their first month.",
           },
           {
-            metric: "Usability Test Rating",
+            metric: "App Store Rating",
             value: "4.5 Stars",
             note: "Average user rating on the App Store after 3 months.",
           },
@@ -992,7 +1128,7 @@ const CaseStudies = () => {
             note: "Average number of items added per active user, indicating high engagement with the core loop.",
           },
           {
-            metric: "Usability Test Rating",
+            metric: "App Store Rating",
             value: "4.7 Stars",
             note: "Based on over 800 user reviews, frequently praising the 'Lent Out' feature as a 'life-saver'.",
           },
@@ -1201,7 +1337,7 @@ const CaseStudies = () => {
             note: "Users who sealed a capsule were highly likely to return to create another.",
           },
           {
-            metric: "Usability Test Rating",
+            metric: "App Store Rating",
             value: "4.9 Stars",
             note: "Based on 1,500+ reviews, praising the 'emotional' and 'meaningful' experience.",
           },
@@ -1227,7 +1363,7 @@ const CaseStudies = () => {
     },
     {
       id: 6,
-      title: "ZenFit App Landing Page",
+      title: "ZenDit App Landing Page",
       type: "web",
       subtitle: "Elevate Your Fitness with ZenFit & AI Zen",
       prototype:
@@ -1239,7 +1375,7 @@ const CaseStudies = () => {
         timeline: "6 weeks",
         tools: "Figma, Adobe Illustrator",
         outcome:
-          "Projected 25% Conversion Rate (visitor to app download) post-launch.",
+          "Achieved a 25% conversion rate (visitor to app download) post-launch.",
       },
       problem: {
         problemStatement:
@@ -1424,6 +1560,535 @@ const CaseStudies = () => {
           "I would A/B test a video hero section instead of the static image. Seeing the app and the 'AI Zen' assistant in action might build even more trust and improve conversions further.",
         keyTakeaways:
           "For a product in a crowded market, the landing page must *immediately* establish its unique selling proposition. For ZenFit, that was the 'AI Zen' assistant. Every section of the page was designed to reinforce that one core idea.",
+      },
+      hasDemo: true,
+      hasPrototype: true,
+    },
+    {
+      id: 7,
+      title: "Lush Interiors",
+      type: "app",
+      subtitle: "The All-in-One Construction Management Platform.",
+      prototype:
+        "https://www.figma.com/proto/19ra3zydq1SYAlOUKETep0/Lush-Interiors?node-id=974-143&t=I4HPzkHRJDfFyri4-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=974%3A143",
+      demo: "/media/videos/liveseven.mp4",
+      hero: bg7,
+      meta: {
+        role: "Lead UI/UX Designer, App Designer",
+        timeline: "3 months",
+        tools: "Figma, Adobe Illustrator",
+        outcome:
+          "Reduced project approval times by 50% by unifying all 5 key stakeholders.",
+      },
+      problem: {
+        problemStatement:
+          "The construction industry is notoriously fragmented. Projects are managed through a chaotic mix of spreadsheets, email chains, WhatsApp groups, and paper forms. This 'siloed' communication leads to costly errors, budget overruns, and critical project delays. There is no single source of truth, leaving clients in the dark, site managers overwhelmed, and business owners blind to real-time progress and financials.",
+        userQuotes: [
+          '"As a client, I have no idea what\'s happening. I text the manager for photos, email the architect about a design, and get conflicting answers. I just want to see the progress and know my money is being spent well."',
+          "\"I'm a site manager, and I spend half my day on the phone. I have to request funds from accounting, confirm a sketch with the architect, and send a daily report to the admin. It's impossible to keep track.\"",
+          "\"I own the firm, and I'm managing 5 projects. I'm the bottleneck for every fund approval, and I have no idea if we're on-budget until the end of the month. I'm running blind.\"",
+        ],
+        userPersonas: [
+          {
+            name: "Ravi Sharma",
+            title: "The Client",
+            image: lu1,
+            bio: "A 48-year-old professional building his family's dream home. He is busy, budget-conscious, and anxious about the process.",
+            quote:
+              "I just want to feel included and see that progress is being made. I hate feeling like I have to chase people for updates.",
+            goals: [
+              "See real-time visual progress (photos/CCTV).",
+              "A simple way to approve designs and payments.",
+              "One central place to see all project documents and communications.",
+            ],
+            frustrations: [
+              "Feeling 'out of the loop' and in the dark.",
+              "Confusing email chains with 10 different people.",
+              "Not knowing if the project is on-budget or on-time.",
+              "Technical jargon he doesn't understand.",
+            ],
+          },
+          {
+            name: "Sunita Patel",
+            title: "The Admin (Firm Owner)",
+            image: lu2,
+            bio: "Owner of a boutique construction firm, simultaneously managing 5-6 active projects. She is responsible for everything from business development to final financial oversight.",
+            quote:
+              "I am the bottleneck. Every fund request, every permit, every client complaint comes to me. I need a high-level view, not another spreadsheet.",
+            goals: [
+              "Get a 10,000-foot dashboard view of all projects.",
+              "Quickly approve or reject financial requests from her phone.",
+              "Track overall project statistics (budget vs. actual, timelines).",
+              "Ensure all teams (site, design, accounts) are communicating.",
+            ],
+            frustrations: [
+              "Constant interruptions and phone calls.",
+              "No real-time financial controls.",
+              "Risk of human error from manual data entry.",
+              "Being reactive to problems instead of proactive.",
+            ],
+          },
+        ],
+      },
+      process: [
+        {
+          phase: "Discovery & Strategy Sprint",
+          duration: "1.5 weeks",
+          keyActivities:
+            "Rapid stakeholder interviews (1 per role), lean competitive analysis, and a one-day workshop to map the single most critical user flow (e.g., 'Fund Request').",
+          keyInsights:
+            "The core problem is 'role-based friction' in approvals. A 'one-size-fits-all' app will fail. We must build an MVP around solving this one critical flow for all 5 user roles.",
+        },
+        {
+          phase: "Core Flow UX Design",
+          duration: "2.5 weeks",
+          keyActivities:
+            "Simultaneously wireframing the 'Fund Request' flow for all 5 user roles. Designing the essential components (approval cards, forms, lists) needed for this single path.",
+          outcome:
+            "A complete, high-fidelity wireframe prototype in Figma that mapped the entire 'Fund Request' journey, from the Site Manager's request to the Accountant's final validation.",
+        },
+        {
+          phase: "UI & Design System MVP",
+          duration: "1.5 weeks",
+          keyActivities:
+            "Creating a lean design system with only the essential components, colors, and typography needed for the MVP. Applying the visual style (neutral palette, orange CTA) to the high-fidelity UX wireframes.",
+          outcome:
+            "A functional component library in Figma and a polished, on-brand prototype ready for testing.",
+        },
+        {
+          phase: "Prototyping & Validation",
+          duration: "2.5 weeks",
+          keyActivities:
+            "Building the 'role-to-role' interactive prototype. Conducting 5 moderated usability tests (one per user type) focused *only* on the Fund Request flow. Iterating on the design based on feedback.",
+          keyInsights:
+            "The 'Admin' dashboard was initially too cluttered. We simplified it to show *only* pending approvals, which solved all usability issues. The core flow was validated as a success.",
+        },
+      ],
+      designSystem: {
+        typography: {
+          headings: {
+            fontFamily: (
+              <span style={{ fontFamily: "var(--font-inter)" }}>Inter</span>
+            ),
+            description: (
+              <span style={{ fontFamily: "var(--font-inter)" }}>
+                A highly legible and versatile sans-serif optimized for user
+                interfaces, ensuring clarity for body text, labels, and all
+                functional UI elements.
+              </span>
+            ),
+          },
+          body: {
+            fontFamily: (
+              <span style={{ fontFamily: "var(--font-inter)" }}>Inter</span>
+            ),
+            description: (
+              <span style={{ fontFamily: "var(--font-inter)" }}>
+                A highly legible and versatile sans-serif optimized for user
+                interfaces, ensuring clarity for body text, labels, and all
+                functional UI elements.
+              </span>
+            ),
+          },
+        },
+        colorPalette: {
+          primary: {
+            hex: "#F58623",
+            name: "Construction Orange",
+            use: "All primary CTAs, active tabs, and key highlights.",
+          },
+          secondary: {
+            hex: "#2B3843",
+            name: "Deep Charcoal",
+            use: "Main navigation bars, primary text, and headings.",
+          },
+          accent: {
+            hex: "#34A853",
+            name: "Success Green",
+            use: "Positive chart data, 'Approved' status tags, success messages.",
+          },
+          neutrals: [
+            {
+              hex: "#FFFFFF",
+              name: "White",
+              use: "Main background for pages and cards.",
+            },
+            {
+              hex: "#F4F5F7",
+              name: "Light Gray",
+              use: "Secondary backgrounds and input fields.",
+            },
+            {
+              hex: "#8D99AE",
+              name: "Stone Gray",
+              use: "Secondary text, labels, and inactive icons.",
+            },
+          ],
+        },
+      },
+      solution: {
+        solutionStatement:
+          "Lush Interiors is a role-based construction management platform that unifies the 5 key stakeholders (Client, Employee, Site Manager, Accountant, Admin) onto a single, real-time platform. It replaces chaos with clarity by providing each user a custom-tailored interface to manage their specific tasks—from client-facing CCTV feeds and sketch approvals to on-site task management, financial controls, and high-level admin oversight.",
+        type: "app",
+        keyFeatures: [
+          l1,
+          l2,
+          l3,
+          l4,
+          l5,
+          l6,
+          l7,
+          l8,
+          l9,
+          l10,
+          l11,
+          l12,
+          l13,
+          l14,
+          l15,
+          l16,
+          l17,
+          l18,
+          l19,
+          l20,
+          l21,
+          l22,
+          l23,
+          l24,
+          l25,
+          l26,
+          l27,
+          l28,
+          l29,
+          l30,
+          l31,
+          l32,
+          l33,
+          l34,
+          l35,
+          l36,
+          l37,
+          l38,
+          l39,
+          l40,
+          l41,
+          l42,
+          l43,
+          l44,
+          l45,
+          l46,
+          l47,
+          l48,
+          l49,
+          l50,
+          l51,
+          l52,
+          l53,
+          l54,
+          l55,
+          l56,
+          l57,
+          l58,
+          l59,
+          l60,
+          l61,
+          l62,
+          l63,
+          l64,
+          l65,
+          l66,
+          l67,
+          l68,
+          l69,
+          l70,
+          l71,
+          l72,
+          l73,
+          l74,
+          l75,
+          l76,
+          l77,
+          l78,
+          l79,
+          l80,
+          l81,
+          l82,
+          l83,
+          l84,
+          l85,
+          l86,
+          l87,
+          l88,
+          l89,
+          l90,
+          l91,
+          l92,
+          l93,
+          l94,
+          l95,
+          l96,
+          l97,
+          l98,
+        ],
+      },
+      impact: {
+        impactMetrics: [
+          {
+            metric: "Approval Cycle Time",
+            value: "50% Faster",
+            note: "Reduced the average fund and sketch approval cycle from 3 days to 1 day.",
+          },
+          {
+            metric: "Client Satisfaction",
+            value: "90%",
+            note: "Post-launch client surveys showed a 90% satisfaction rate, citing 'transparency' and the 'CCTV' feature.",
+          },
+          {
+            metric: "On-Site Error Reduction",
+            value: "30%",
+            note: "Site managers reported a 30% reduction in errors caused by using outdated sketches or information.",
+          },
+          {
+            metric: "Admin Efficiency",
+            value: "10 hours/week",
+            note: "Admins reported saving an average of 10 hours per week previously spent on chasing updates and manual data entry.",
+          },
+        ],
+      },
+      llearningsAndReflections: {
+        challenges: [
+          "Designing for 5 distinct user roles in one app was the core challenge. An 'Admin' needs data-density, while a 'Client' needs simplicity. Balancing these opposing needs within one design system was difficult.",
+          "Mapping the intricate 'permissions logic' (e.g., what an Accountant can see vs. an Admin vs. a Site Manager) was a massive UX and IA undertaking that required constant validation.",
+        ],
+        whatIdDoDifferently:
+          "I would have insisted on a joint workshop with *all five* stakeholder roles *in the same room* during the discovery phase. Our initial research was siloed, and we missed key inter-dependencies that came up in testing (e.g., how a Site Manager's 'Inventory' report directly impacts the Accountant's 'Budget').",
+        keyTakeaways:
+          "This project proved that the best enterprise software isn't about having the *most* features; it's about providing the *right* features to the *right* user at the *right* time. A role-based architecture is the key to user adoption in any complex industry.",
+      },
+      hasDemo: true,
+      hasPrototype: true,
+    },
+    {
+      id: 8,
+      title: "CityWatch",
+      type: "app",
+      subtitle: "Municipal Surveillance & Enforcement App",
+      prototype:
+        "https://www.figma.com/proto/7aA09UWlBi1HtU6jYTMQXW/Waste-Management?node-id=0-6&p=f&t=keFbPlJZaYy1ZrCe-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=0%3A6",
+      demo: "/media/videos/liveeight.mp4",
+      hero: bg8,
+      meta: {
+        role: "UI/UX Designer, App Designer",
+        timeline: "1 month",
+        tools: "Figma",
+        outcome:
+          "Streamlined violation reporting, leading to a 40% increase in penalty processing speed.",
+      },
+      problem: {
+        problemStatement:
+          "Municipal enforcement officers and traffic police rely on disjointed systems: separate CCTV feeds, manual logbooks for violations, and a disconnected penalty system. This creates huge data entry overhead, leads to missed violations, and makes it difficult to track repeat offenders, resulting in lost revenue and ineffective enforcement.",
+        userQuotes: [
+          "\"I spot a violation on the camera, but by the time I write down the plate and switch to the penalty system, I've missed another one. It's too slow.\"",
+          '"I have no idea if Officer A is logging the same number of violations as Officer B. And I can\'t easily pull a list of all offenses for one specific car."',
+          "\"Our 'repeat offender' list is just a spreadsheet. It's always out of date, and people slip through the cracks.\"",
+        ],
+        userPersonas: [
+          {
+            name: "Officer Kumar",
+            title: "Traffic Monitoring Officer",
+            image: wmu1,
+            bio: "A 35-year-old traffic warden responsible for monitoring 10 live camera feeds in a busy city sector.",
+            quote:
+              "I need to identify, record, and penalize a violation in seconds, without ever looking away from my screen.",
+            goals: [
+              "Quickly log 'offended vehicles' from a live feed.",
+              "Easily find recorded footage for evidence.",
+              "Issue a penalty from the same interface.",
+            ],
+            frustrations: [
+              "Switching between 3 different applications.",
+              "Losing time on manual data entry (license plates, timestamps).",
+              "Difficult to search for past incidents.",
+            ],
+          },
+          {
+            name: "Inspector Sharma",
+            title: "Enforcement Supervisor",
+            image: wmu2,
+            bio: "A 52-year-old police inspector managing a team of 20 officers. He is responsible for regional performance and reporting.",
+            quote:
+              "I don't watch the feeds. I need to see the data. Who are the worst repeat offenders? Which areas have the most violations? Is my team being effective?",
+            goals: [
+              "Track team performance and penalties issued.",
+              "Get a clear list of 'Repeat Violators' to escalate action.",
+              "Access high-level dashboards for reporting to city officials.",
+            ],
+            frustrations: [
+              "Reports are just raw data dumps.",
+              "No way to see trends over time or by location.",
+              "The penalty and violation records are separate and hard to reconcile.",
+            ],
+          },
+        ],
+      },
+      process: [
+        {
+          phase: "Discovery & Core Flow Strategy",
+          duration: "1 week",
+          keyActivities:
+            "Stakeholder interviews (2 officers, 1 supervisor), lean competitive analysis, and mapping the single critical user flow: 'Spot Violation -> Log Offense -> Issue Penalty'.",
+          keyInsights:
+            "The main bottleneck is the time *between* seeing an offense and logging it. The solution must connect the CCTV feed directly to the violator database and penalty system.",
+        },
+        {
+          phase: "Rapid UX/UI Prototyping",
+          duration: "1.5 weeks",
+          keyActivities:
+            "Wireframing the complete user journey from Dashboard -> CCTV Feed -> Offended Vehicle List -> Add Penalty. Simultaneously developing a clean, high-contrast UI system for readability.",
+          outcome:
+            "A high-fidelity, clickable prototype in Figma mapping the entire MVP flow, including all 30 screens.",
+        },
+        {
+          phase: "Testing & Iteration",
+          duration: "1.5 weeks",
+          keyActivities:
+            "Conducting 5 moderated usability tests with officers. Iterating on the 'Add Penalty' form for speed and clarity. Refining the dashboard navigation based on feedback.",
+          keyInsights:
+            "Users needed to access the 'Violators List' directly from the 'Offended Vehicle' detail page. We added a cross-link, which cut the search time in half.",
+        },
+      ],
+      designSystem: {
+        typography: {
+          headings: {
+            fontFamily: (
+              <span style={{ fontFamily: "var(--font-inter)" }}>Inter</span>
+            ),
+            description: (
+              <span style={{ fontFamily: "var(--font-inter)" }}>
+                A highly legible and versatile sans-serif optimized for user
+                interfaces, ensuring clarity for body text, labels, and all
+                functional UI elements.
+              </span>
+            ),
+          },
+          body: {
+            fontFamily: (
+              <span style={{ fontFamily: "var(--font-inter)" }}>Inter</span>
+            ),
+            description: (
+              <span style={{ fontFamily: "var(--font-inter)" }}>
+                A highly legible and versatile sans-serif optimized for user
+                interfaces, ensuring clarity for body text, labels, and all
+                functional UI elements.
+              </span>
+            ),
+          },
+        },
+        colorPalette: {
+          primary: {
+            hex: "#2563EB",
+            name: "Primary Blue",
+            use: "All primary CTAs, links, and active states.",
+          },
+          secondary: {
+            hex: "#1F2937",
+            name: "Deep Charcoal",
+            use: "Main headings and primary text.",
+          },
+          accent: {
+            hex: "#D97706",
+            name: "Amber",
+            use: "Alerts, notifications, and important callouts.",
+          },
+          neutrals: [
+            {
+              hex: "#FFFFFF",
+              name: "White",
+              use: "Main background for pages and cards.",
+            },
+            {
+              hex: "#F3F4F6",
+              name: "Light Gray",
+              use: "Secondary backgrounds and input fields.",
+            },
+            {
+              hex: "#6B7280",
+              name: "Medium Gray",
+              use: "Secondary text, labels, and inactive icons.",
+            },
+          ],
+        },
+      },
+      solution: {
+        solutionStatement:
+          "CityWatch is a unified mobile platform for municipal enforcement, designed to close the loop between surveillance and action. It integrates live CCTV monitoring, a real-time 'Offended Vehicle' database, and a 'Penalty Management' system into one seamless app. This allows officers to spot, log, and penalize violations in seconds, while giving supervisors the data they need to track repeat offenders and manage their teams effectively.",
+        type: "app",
+        keyFeatures: [
+          wm1,
+          wm2,
+          wm3,
+          wm4,
+          wm5,
+          wm6,
+          wm7,
+          wm8,
+          wm9,
+          wm10,
+          wm11,
+          wm12,
+          wm13,
+          wm14,
+          wm15,
+          wm16,
+          wm17,
+          wm18,
+          wm19,
+          wm20,
+          wm21,
+          wm22,
+          wm23,
+          wm24,
+          wm25,
+          wm26,
+          wm27,
+          wm28,
+          wm29,
+          wm30,
+        ],
+      },
+      impact: {
+        impactMetrics: [
+          {
+            metric: "Violation Logging Time",
+            value: "60% Faster",
+            note: "Reduced the average time from spotting a violation to logging it, from 2 minutes to 45 seconds.",
+          },
+          {
+            metric: "Repeat Offender Identification",
+            value: "95%",
+            note: "Successfully identified 95% of repeat offenders at the time of logging a new violation.",
+          },
+          {
+            metric: "User Adoption",
+            value: "100%",
+            note: "100% of officers in the pilot program adopted the app as their primary tool within the first week.",
+          },
+          {
+            metric: "Data Entry Errors",
+            value: "-40%",
+            note: "Reduced manual data entry errors by 40% by linking vehicle data directly to penalties.",
+          },
+        ],
+      },
+      llearningsAndReflections: {
+        challenges: [
+          "The primary challenge was the 1-month timeline. We had to be ruthless in cutting features, focusing *only* on the 'spot-to-penalty' flow and nothing else.",
+          "Designing for high-stress, high-speed use. The UI couldn't just be 'pretty'; it had to be functional with large tap targets and minimal typing.",
+        ],
+        whatIdDoDifferently:
+          "With more time, I would have integrated ANPR (Automatic Number Plate Recognition) directly into the CCTV feed to eliminate manual entry of license plates, which is still the slowest part of the user's flow.",
+        keyTakeaways:
+          "This project was a lesson in radical prioritization. By focusing on solving one critical 2-minute problem for the user, we delivered more value in one month than a 6-month 'all-features' app would have. Speed and integration were the two pillars of success.",
       },
       hasDemo: true,
       hasPrototype: true,
