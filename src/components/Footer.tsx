@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import { Mail, Linkedin, Github, Dribbble, Behance } from "lucide-react";
+import { Mail, Linkedin, Github, Dribbble, Slice } from "lucide-react";
 import Image from "next/image";
 import logo from "@/public/media/logo.png";
 
@@ -123,7 +123,7 @@ const Footer = () => {
                   className="w-8 h-8 bg-white/10 rounded-lg flex items-center justify-center hover:bg-[#8FCFF0] hover:text-[#0B2235] transition-all duration-200"
                   aria-label="GitHub Profile"
                 >
-                  <Behance className="w-4 h-4" />
+                  <Slice className="w-4 h-4" />
                 </a>
               </div>
             </div>
