@@ -23,6 +23,15 @@ const Resume = () => {
   const experience = [
     {
       role: "Lead UI/UX Designer",
+      company: "STUDIOARG",
+      location: "Hyderabad, India",
+      duration: "Jul 2025 – Present",
+      description:
+        "Led all digital design initiatives for StudioARG, a premier interior design and architecture firm. Spearheaded the design of the primary company website, client portals, and internal project visualization tools. Focused on translating the firm's luxury brand identity into a seamless digital experience to attract high-value clients and streamline project communication.",
+      achievements: [],
+    },
+    {
+      role: "Lead UI/UX Designer",
       company: "XverseMeta Technologies",
       location: "Hyderabad, India",
       duration: "Jan 2025 – Jun 2025",
