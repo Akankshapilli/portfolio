@@ -22,7 +22,7 @@ const Resume = () => {
 
   const experience = [
     {
-      role: "Lead UI/UX Designer",
+      role: "Lead UI/UX Designer and Front-End Developer",
       company: "STUDIOARG",
       location: "Hyderabad, India",
       duration: "Jul 2025 – Present",
